@@ -1,0 +1,28 @@
+{
+	"Print to console": {
+		"prefix": "cmb2:add_group",
+		"body": [
+			"\\$$1 = \\$cmb2$2->add_field([",
+         "   'id' => '$3',",
+         "   'name' => '$4',",
+         "   'desc' => '$5',",
+         "   'type' => 'group',",
+         "   'repeatable' => true,",
+         "   'options' => [",
+         "      'group_title' => '$6 {#}',",
+         "      'add_button' => 'Adicionar $6',",
+         "      'remove_button' => 'Remover $6',",
+         "      'sortable' => true,",
+         "   ],",
+         "]);",
+         "",
+         "\\$cmb2$2->add_group_field(\\$$1, [",
+         "   'id' => '$7',",
+         "   'name' => '$8',",
+         "   'desc' => '$9',",
+         "   'type' => 'text',",
+         "]);",
+		],
+		"description": "Add a cmb2 repeatable group field and a repeater field."
+	}
+}

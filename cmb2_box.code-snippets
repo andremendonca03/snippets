@@ -1,0 +1,31 @@
+{
+   "Print to console": {
+      "prefix": "cmb2:add_box",
+      "body": [
+         "<?php",
+         "add_action('cmb2_admin_init', 'cmb2_fields_$1');",
+         "function cmb2_fields_$1() {",
+         "",
+         "   \\$cmb2 = new_cmb2_box([",
+         "      'id' => '$2',",
+         "      'title' => '$3',",
+         "      'object_types' => ['page'],",
+         "      'show_on' => [",
+         "         'key' => 'page-template',",
+         "         'value' => '$4',",
+         "      ],",
+         "   ]);",
+         "",
+         "   \\$cmb2->add_field([",
+         "      'id' => '$5',",
+         "      'name' => '$6',",
+         "      'desc' => '$7',",
+         "      'type' => 'text',",
+         "   ]);",
+         "",
+         "}",
+         "?>",
+      ],
+      "description": "Add a cmb2 box and a field."
+   }
+}
