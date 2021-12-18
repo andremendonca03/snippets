@@ -20,4 +20,4 @@ Esses são os meus snippets principais que uso nos meus projetos:
 - **cmb2:add_repeater_field**
   - Cria um novo repeater field.
 
-Todos o snippets são globais.
+Todos os snippets são globais.
