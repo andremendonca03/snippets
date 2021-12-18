@@ -3,7 +3,7 @@
 
 Alocados na pasta local: AppData/Roaming/Code/User/snippets/
 
-Esses são os meus snippets principais que eu uso nos meus projetos:
+Esses são os meus snippets principais que uso nos meus projetos:
 - **base:html**
   - Snippet que cria um arquivo .hmtl base para um projeto;
   - Contém um head completo, com meta tags, title e og tags, além de links para o favicon e o css.
