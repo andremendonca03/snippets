@@ -2,10 +2,10 @@
 	"Print to console": {
 		"prefix": "cmb2:add_field",
 		"body": [
-			"\\$cmb2$1->add_field([",
-         "   'id' => '$2',",
-         "   'name' => '$3',",
-         "   'desc' => '$4',",
+			"\\$cmb2->add_field([",
+         "   'id' => '$1',",
+         "   'name' => '$2',",
+         "   'desc' => '$3',",
          "   'type' => 'text',",
          "]);",
 		],

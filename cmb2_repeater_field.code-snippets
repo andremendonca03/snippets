@@ -2,10 +2,10 @@
 	"Print to console": {
 		"prefix": "cmb2:add_repeater_field",
 		"body": [
-			"\\$cmb2$1->add_group_field(\\$$2, [",
-         "   'id' => '$3',",
-         "   'name' => '$4',",
-         "   'desc' => '$5',",
+			"\\$cmb2->add_group_field(\\$$1, [",
+         "   'id' => '$2',",
+         "   'name' => '$3',",
+         "   'desc' => '$4',",
          "   'type' => 'text',",
          "]);",
 		],
