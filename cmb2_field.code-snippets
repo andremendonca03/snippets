@@ -1,0 +1,14 @@
+{
+	"Print to console": {
+		"prefix": "cmb2:add_field",
+		"body": [
+			"\\$cmb2->add_field([",
+         "   'id' => '$1',",
+         "   'name' => '$2',",
+         "   'desc' => '$3',",
+         "   'type' => 'text',",
+         "]);",
+		],
+		"description": "Add a cmb2 field."
+	}
+}

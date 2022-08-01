@@ -1,0 +1,36 @@
+{
+	"Print to console": {
+		"prefix": "base:cmb2",
+		"body": [
+			"<?php",
+         "//Help Functions:",
+         "function get_field(\\$key, \\$page_id = '0') {",
+         "   if (\\$page_id === '0') {",
+         "      \\$id = get_page_by_title(get_the_title(get_option('page_on_front')))->ID;",
+         "   } else {",
+         "      \\$id = get_page_by_title(\\$page_id)->ID;",
+         "   }",
+         "   return get_post_meta(\\$id, \\$key, true);",
+         "}",
+         "",
+         "function the_field(\\$key, \\$page_id = '0') {",
+         "   echo get_field(\\$key, \\$page_id);",
+         "}",
+         "",
+         "function get_field_general(\\$key, \\$page_id = 0) {",
+         "   \\$id = \\$page_id !== 0 ? \\$page_id : get_the_ID();",
+         "   return get_post_meta(\\$id, \\$key, true);",
+         "}",
+         "",
+         "function the_field_general(\\$key, \\$page_id = 0) {",
+         "   echo get_field_general(\\$key, \\$page_id);",
+         "}",
+         "",
+         "//Importing fields page:",
+         "require_once get_template_directory() . '/cmb2/general.php';",
+         "",
+         "?>",
+		],
+		"description": "A base CMB2 code for my website projects."
+	}
+}

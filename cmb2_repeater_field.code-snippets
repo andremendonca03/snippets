@@ -1,0 +1,14 @@
+{
+	"Print to console": {
+		"prefix": "cmb2:add_repeater_field",
+		"body": [
+			"\\$cmb2->add_group_field(\\$$1, [",
+         "   'id' => '$2',",
+         "   'name' => '$3',",
+         "   'desc' => '$4',",
+         "   'type' => 'text',",
+         "]);",
+		],
+		"description": "Add a cmb2 repeatable field."
+	}
+}
