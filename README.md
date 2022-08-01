@@ -1,23 +1,26 @@
 # Snippets
-## Snippets de Usuário padrão do VS Code.
+## Default User Snippets for VSCode.
 
-Alocados na pasta local: AppData/Roaming/Code/User/snippets/
+Located at: AppData/Roaming/Code/User/snippets/
 
-Esses são os meus snippets principais que uso nos meus projetos:
 - **base:html**
-  - Snippet que cria um arquivo .hmtl base para um projeto;
-  - Contém um head completo, com meta tags, title e og tags, além de links para o favicon e o css.
+  - Create a .html base file for a project;
+  - Contains a full head, with meta tags, title and og tags, apart from favicon and css links.
 - **base:cmb2**
-  - Snippet que cria um bloco php com as configurações iniciais do cmb2;
-  - Cria as funções de ajuda the_field(), the_field_general(), get_field e get_field_general();
-  - Cria um import para o arquivo onde serão importados todos os arquivos de campos do cmb2.
+  - Create a PHP block with CMB2 initial settings;
+  - Create the Help Functions the_field(), the_field_general(), get_field() and get_field_general();
+  - Create an import to the file where all other CMB2 field files will be imported.
 - **cmb2:add_box**
-  - Cria uma nova caixa cmb2 com um campo.
+  - Create a new CMB2 box with a field.
 - **cmb2:add_field**
-  - Cria um novo campo cmb2.
+  - Create a new CMB2 field.
 - **cmb2:add_group**
-  - Cria um novo campo cmb2 do tipo grupo com o primeiro repeater field. 
+  - Create a new CMB2 group field with the first repeater field.
 - **cmb2:add_repeater_field**
-  - Cria um novo repeater field.
+  - Create a new CMB2 repeater field.
+- **email_template**
+  - Create a full html template with everything needed to set up a custom e-mail;
+  - Uses table structure in a .html file;
+  - Has further information on how to use and where to insert content.
 
-Todos os snippets são globais.
+All the snippets are global!
