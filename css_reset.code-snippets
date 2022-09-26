@@ -84,6 +84,6 @@
 			"}",
 				"",
 		],
-		"description": "A CSS/SCSS reset code that clear margins, paddings and borders apart from some personal special settings and styles."
+		"description": "A CSS/SCSS reset code that clear margins, paddings and borders apart from other personal special settings and useful styles."
 	}
 }

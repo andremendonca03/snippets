@@ -22,5 +22,7 @@ Located at: AppData/Roaming/Code/User/snippets/
   - Create a full html template with everything needed to set up a custom e-mail;
   - Uses table structure in a .html file;
   - Has further information on how to use and where to insert content.
+- **css_reset**
+  - Create a CSS/SCSS reset code that clear margins, paddings and borders apart from other personal special settings and useful styles.
 
 All the snippets are global!
