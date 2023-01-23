@@ -1,0 +1,23 @@
+{
+	"comp": {
+		"prefix": "comp",
+		"body": [
+			"import React from 'react';",
+      "import { GlobalContext } from '../GlobalContext';",
+      "import styles from '../styles/$1.module.css';",
+      "",
+      "function $1() {",
+      "  const global = React.useContext(GlobalContext);",
+      "",
+      "  return (",
+      "    <>",
+      "      $2",
+      "    </>",
+      "  );",
+      "}",
+      "",
+      "export default $1;",
+		],
+		"description": "Base React/Next Functional Component including Global Context and CSS Modules integration."
+	}
+}
